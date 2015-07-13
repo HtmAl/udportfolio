@@ -456,12 +456,16 @@ var resizePizzas = function(size) {
     switch(size) {
       case "1":
         newPercentWidth = 25;
+        break;
       case "2":
         newPercentWidth = 33.33;
+        break;
       case "3":
         newPercentWidth = 50;
+        break;
       default:
         console.log("bug in changePizzaSizes");
+        break;
     }
 
     for (var i = 0; i < container.length; i++) {
